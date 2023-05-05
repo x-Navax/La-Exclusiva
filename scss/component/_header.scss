@@ -1,0 +1,33 @@
+header {
+
+    nav {display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-color: rgb(4, 210, 140);
+        padding-top:5px;
+        padding-bottom: 5px;
+
+        ul {list-style: none;
+            margin-bottom: 0;
+            margin-top: 8px;
+
+            li {padding-right: 40px;
+                padding-left:40px;
+                display: inline;
+
+                a {list-style:none;
+                    text-decoration:solid;
+                    font-size: 1.8rem;
+                    color:black;
+                    font-family: 'Bebas Neue', cursive;
+
+
+                }
+            }
+        }
+    }
+}.logo {width: 10%;
+    height: 10%;}
+
+ 
