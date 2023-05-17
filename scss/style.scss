@@ -1,5 +1,4 @@
 @import "component/header";
-@import "component/headermobile";
 @import "component/main";
 @import "component/nosotros";
 @import "component/servicios";
@@ -12,7 +11,7 @@ img {
     width: 50%;
     height:50%; }
 #portada img{width:100% ;
-            height:500px;
+            height:auto;
         margin-bottom: -4px;}
 body {background-color: rgb(255, 255, 255);}
 img {
