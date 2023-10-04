@@ -26,13 +26,13 @@
 </head>
 <body>
 
-    <div><a href="https://wa.me/348730052?text=Hola%20¡Estoy%20interesado%20en%20la%20quinta!" class="float" target="_blank">
+    <div><a href="https://wa.me/+54348730052?text=Hola%20¡Estoy%20interesado%20en%20la%20quinta!" class="float" target="_blank">
         <img class="boton" src="./galeria/whatsappflotante.png" alt="Whatsapp">
       </a></div>
     <header class="headeroriginal">
       
             <section id="portada"><img src="/galeria/IMG-20220127-WA0007.jpg" alt=""></section>
-            
+            <section id="portadamobile"><img src="/galeria/portadamobile.jpg" alt=""></section>
             <section class="logo"><a href="index.html"><img src="../galeria/La Exclusiva.png" alt="Logo-Laexclusiva"></a></section>
 
               <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
@@ -92,6 +92,27 @@
     </div>
 
    </main>
+
+   <div class="formulariomobile">
+    <form  name="reserva" method="POST" data-netlify="true">
+
+      <label  for="Nombre">Nombre</label>
+      <input type="text" name="nombre" id="nombre">
+      <label for="Apellido">Apellido</label>
+      <input type="text" name="apellido" id="apellido">
+      <label for="Telefono">Teléfono</label>
+      <input type="text" name="telefono" id="telefono">
+      <label for="Fecha">Fecha a reservar</label>
+      <input type="date" name="fecha" id="fecha">
+      
+
+      <input type="submit" value="Enviar" onclick="return validarFormulario()"> <br>
+
+      
+
+
+    </form>
+  </div>
     
     <!-- <footer>
         <section class="Span">

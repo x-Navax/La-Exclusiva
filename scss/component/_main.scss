@@ -46,10 +46,78 @@ margin-bottom: 100px;}
     background-color: #39843d;
   }
 
+  .formulariomobile input[type="text"],
+  .formulariomobile input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    color: #555;
+  }
+
+  .formulariomobile label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #000000;
+    font-size: 140%;
+  }
+
+  .formulariomobile {
+    text-align: center;
+    width: 500px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);   
+  }
+  
+
+  .formulariomobile input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+
+  .formulariomobile input[type="submit"]:hover {
+    background-color: #39843d;}
+
+  #portadamobile {
+    display: none;
+  }
+  .formulariomobile {display: none;}
 
 @media (max-width: 480px) {
+    .formulario {
+      display: none;
+    }
+    .formulariomobile{
+      display: block;
+    }
+
+    #portadamobile {
+      display:block;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+    .main {
+      display: flex;
+      justify-content: center;
+    }
     .mapa p iframe{
-        width: 100%;
+        width: 70%;
         height: 30rem;
         margin-top: 40px;
     }}
