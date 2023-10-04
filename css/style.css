@@ -149,12 +149,6 @@ main {
     display: block;
     max-width: 400px;
   }
-  #portadamobile {
-    display: block;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-  }
   .main {
     display: flex;
     justify-content: center;
