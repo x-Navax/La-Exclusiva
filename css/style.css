@@ -35,6 +35,10 @@ main {
   margin-bottom: 100px;
 }
 
+.mapa {
+  width: 500px;
+}
+
 .formulario {
   text-align: center;
   width: 500px;
@@ -143,6 +147,7 @@ main {
   }
   .formulariomobile {
     display: block;
+    max-width: 470px;
   }
   #portadamobile {
     display: block;
@@ -155,8 +160,6 @@ main {
     justify-content: center;
   }
   .mapa p iframe {
-    width: 70%;
-    height: 30rem;
     margin-top: 40px;
   }
 }
